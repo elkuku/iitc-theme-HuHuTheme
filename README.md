@@ -3,9 +3,9 @@
 
 
 
-# IITC Theme `<TEMPLATE>`
+# IITC Theme HuHu
 
-This is a template for IITC themes
+This is a theme for IITC
 
 ## Usage
 
