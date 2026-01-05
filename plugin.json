@@ -1,8 +1,8 @@
 {
-  "name": "IITC plugin: TcTheme-<NAME>",
-  "id": "iitc_plugin_TcTheme_<NAME>",
+  "name": "IITC plugin: TcTheme-HuHuTheme",
+  "id": "iitc_plugin_TcTheme_HuHuTheme",
   "category": "Themes",
   "description": "A theme for IITC",
-  "author": "<AUTHOR>",
+  "author": "elkuku",
   "entry": "src/Main.ts"
 }
