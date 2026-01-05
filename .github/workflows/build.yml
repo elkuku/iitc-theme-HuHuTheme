@@ -66,6 +66,10 @@ jobs:
           ref: ${{ steps.tag_check.outputs.tag }}
           path: tagged
 
+      - name: Create the themes.json file
+        working-directory: tagged
+        run: node ../scripts/create-themes-file.js
+
       # -------------------------------
       # Build latest tag (conditional)
       # -------------------------------
