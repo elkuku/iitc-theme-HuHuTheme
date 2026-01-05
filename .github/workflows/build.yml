@@ -50,6 +50,7 @@ jobs:
         run: TAG=$(git tag --sort=-v:refname | head -n 1 || true)
 
           echo "tag=$TAG";
+          git tag;
           if [ -z "$TAG" ]; then
           echo "has_tag=false" >> "$GITHUB_OUTPUT";
           else
