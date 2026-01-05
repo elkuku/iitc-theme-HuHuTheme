@@ -73,8 +73,8 @@ jobs:
         if: steps.tag_check.outputs.has_tag == 'true'
         working-directory: tagged
         run: |
-          npm ci
-          npm run build
+          yarn install --immutable --frozen-lockfile
+          yarn build:prod
           mkdir -p ../build/release
           cp -r dist/* ../build/release/
 
