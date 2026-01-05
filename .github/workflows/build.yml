@@ -48,7 +48,8 @@ jobs:
       - name: Detect latest tag
         id: tag_check
         run: TAG=$(git tag --sort=-v:refname | head -n 1 || true)
-          
+
+          echo "tag=$TAG";
           if [ -z "$TAG" ]; then
           echo "has_tag=false" >> "$GITHUB_OUTPUT";
           else
