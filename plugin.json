@@ -4,5 +4,6 @@
   "category": "Themes",
   "description": "A theme for IITC",
   "author": "elkuku",
-  "entry": "src/Main.ts"
+  "entry": "src/Main.ts",
+  "downloadURL": "https://elkuku.github.io/iitc-theme-HuHuTheme/files/release/iitc_plugin_TcTheme_HuHuTheme.user.js"
 }
